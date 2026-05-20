@@ -2,127 +2,82 @@ questions = {
     "Machine Learning": [
         {
             "question": "What is overfitting?",
-            "keywords": [
-                "training data",
-                "generalization",
-                "high variance"
-            ]
-        },                
+            "expected_answer":
+            "Overfitting happens when a model learns the training data too well and performs poorly on unseen data."
+        },
         {
             "question": "What is supervised learning?",
-            "keywords": [
-                "labeled data",
-                "input",
-                "output"
-            ]
+            "expected_answer":
+            "Supervised learning is a machine learning approach that uses labeled input and output data for training."
         },
         {
             "question": "Difference between classification and regression?",
-            "keywords": [
-                "categorical",
-                "continuous",
-                "prediction"
-            ]
+            "expected_answer":
+            "Classification predicts categorical outputs while regression predicts continuous numerical values."
+        },
+        {
+            "question": "Why do we split training and testing data?",
+            "expected_answer":
+            "Training and testing data are split to evaluate how well the model performs on unseen data."
         },
         {
             "question": "What is bias and variance?",
-            "keywords": [
-                "underfitting",
-                "overfitting",
-                "error"
-            ]
-        },
-        {
-            "question": "Why do we split train and test data?",
-            "keywords": [
-                "evaluation",
-                "generalization",
-                "testing"
-            ]
+            "expected_answer":
+            "Bias occurs due to underfitting and variance occurs due to overfitting in machine learning models."
         }
     ],
     "Python": [
         {
             "question": "What is a list in Python?",
-            "keywords": [
-                "ordered",
-                "mutable",
-                "collection"
-            ]
+            "expected_answer":
+            "A list is an ordered and mutable collection used to store multiple items in Python."
         },
         {
             "question": "What is a dictionary?",
-            "keywords": [
-                "key",
-                "value",
-                "pair"
-            ]
+            "expected_answer":
+            "A dictionary stores data using key value pairs."
         },
         {
             "question": "Difference between list and tuple?",
-            "keywords": [
-                "mutable",
-                "immutable",
-                "ordered"
-            ]
+            "expected_answer":
+            "Lists are mutable while tuples are immutable in Python."
         },
         {
             "question": "What is a function?",
-            "keywords": [
-                "reusable",
-                "code",
-                "task"
-            ]
+            "expected_answer":
+            "A function is a reusable block of code used to perform a specific task."
         },
         {
             "question": "What is a loop?",
-            "keywords": [
-                "iteration",
-                "repeat",
-                "for"
-            ]
+            "expected_answer":
+            "A loop is used to repeat a block of code multiple times."
         }
     ],
     "SQL": [
         {
             "question": "What is SQL?",
-            "keywords": [
-                "database",
-                "query",
-                "data"
-            ]
-        },
-        {
-            "question": "Difference between WHERE and HAVING?",
-            "keywords": [
-                "filter",
-                "group",
-                "aggregate"
-            ]
+            "expected_answer":
+            "SQL is a language used to manage and query databases."
         },
         {
             "question": "What is a primary key?",
-            "keywords": [
-                "unique",
-                "identifier",
-                "table"
-            ]
+            "expected_answer":
+            "A primary key is a unique identifier for records in a database table."
         },
         {
-            "question": "What is JOIN?",
-            "keywords": [
-                "combine",
-                "tables",
-                "related"
-            ]
+            "question": "What is JOIN in SQL?",
+            "expected_answer":
+            "JOIN is used to combine related data from multiple tables."
+        },
+        {
+            "question": "Difference between WHERE and HAVING?",
+            "expected_answer":
+            "WHERE filters rows before grouping while HAVING filters grouped or aggregated data."
         },
         {
             "question": "Difference between DELETE and DROP?",
-            "keywords": [
-                "remove",
-                "table",
-                "data"
-            ]
+            "expected_answer":
+            "DELETE removes table records while DROP removes the entire table structure and data."
         }
     ]
 }
